@@ -152,10 +152,15 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="src\components\" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="src\app.tsx" />
+    <TypeScriptCompile Include="src\components\about.tsx" />
+    <TypeScriptCompile Include="src\components\header.tsx" />
+    <TypeScriptCompile Include="src\components\homepage.tsx" />
+    <TypeScriptCompile Include="src\components\index.tsx" />
     <TypeScriptCompile Include="src\index.tsx" />
+    <TypeScriptCompile Include="src\router.tsx" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
