@@ -155,11 +155,24 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="src\app.tsx" />
+    <TypeScriptCompile Include="src\common\components\form\button.tsx" />
+    <TypeScriptCompile Include="src\common\components\form\dropdownlist.tsx" />
+    <TypeScriptCompile Include="src\common\components\form\index.tsx" />
+    <TypeScriptCompile Include="src\common\components\form\input.tsx" />
+    <TypeScriptCompile Include="src\common\components\form\password.tsx" />
+    
+    
+    <TypeScriptCompile Include="src\app.tsx" />
     <TypeScriptCompile Include="src\components\about.tsx" />
     <TypeScriptCompile Include="src\components\header.tsx" />
     <TypeScriptCompile Include="src\components\homepage.tsx" />
     <TypeScriptCompile Include="src\components\index.tsx" />
     <TypeScriptCompile Include="src\index.tsx" />
+    <TypeScriptCompile Include="src\interfaces\IButtonProps.tsx" />
+    <TypeScriptCompile Include="src\interfaces\IDropDownListProps.tsx" />
+    <TypeScriptCompile Include="src\interfaces\IInputProps.tsx" />
+    <TypeScriptCompile Include="src\interfaces\IKeyValue.tsx" />
+    <TypeScriptCompile Include="src\interfaces\index.tsx" />
     <TypeScriptCompile Include="src\router.tsx" />
   </ItemGroup>
   <ItemGroup>
