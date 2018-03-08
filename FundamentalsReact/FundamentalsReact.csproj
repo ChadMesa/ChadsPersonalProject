@@ -154,25 +154,49 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="src\api\users\apiExecute.tsx" />
+    <TypeScriptCompile Include="src\api\faqs\index.tsx" />
+    <TypeScriptCompile Include="src\api\mockData.tsx" />
+    <TypeScriptCompile Include="src\api\users\index.tsx" />
     <TypeScriptCompile Include="src\app.tsx" />
+    <TypeScriptCompile Include="src\common\validation.tsx" />
+    <TypeScriptCompile Include="src\components\dataDemo.tsx" />
     <TypeScriptCompile Include="src\common\components\form\button.tsx" />
     <TypeScriptCompile Include="src\common\components\form\dropdownlist.tsx" />
     <TypeScriptCompile Include="src\common\components\form\index.tsx" />
     <TypeScriptCompile Include="src\common\components\form\input.tsx" />
     <TypeScriptCompile Include="src\common\components\form\password.tsx" />
-    
-    
     <TypeScriptCompile Include="src\app.tsx" />
     <TypeScriptCompile Include="src\components\about.tsx" />
+    <TypeScriptCompile Include="src\components\faqCreate\faqCreateForm.tsx" />
+    <TypeScriptCompile Include="src\components\faqCreate\faqCreatePage.tsx" />
+    <TypeScriptCompile Include="src\components\faqCreate\faqCreatePageContainer.tsx" />
     <TypeScriptCompile Include="src\components\header.tsx" />
-    <TypeScriptCompile Include="src\components\homepage.tsx" />
+    <TypeScriptCompile Include="src\components\homePage\index.tsx" />
     <TypeScriptCompile Include="src\components\index.tsx" />
+    <TypeScriptCompile Include="src\components\login\index.tsx" />
+    <TypeScriptCompile Include="src\components\login\loginForm.tsx" />
+    <TypeScriptCompile Include="src\components\login\loginPage.tsx" />
+    <TypeScriptCompile Include="src\components\login\loginPageContainer.tsx" />
+    <TypeScriptCompile Include="src\components\register\index.tsx" />
+    <TypeScriptCompile Include="src\components\register\registerForm.tsx" />
+    <TypeScriptCompile Include="src\components\register\registerPage.tsx" />
+    <TypeScriptCompile Include="src\components\register\registerPageContainer.tsx" />
     <TypeScriptCompile Include="src\index.tsx" />
     <TypeScriptCompile Include="src\interfaces\IButtonProps.tsx" />
     <TypeScriptCompile Include="src\interfaces\IDropDownListProps.tsx" />
+    <TypeScriptCompile Include="src\interfaces\IError.tsx" />
+    <TypeScriptCompile Include="src\interfaces\IFaqCreateEntity.tsx" />
+    <TypeScriptCompile Include="src\interfaces\IFaqCreateForm.tsx" />
+    <TypeScriptCompile Include="src\interfaces\IFAQEntity.tsx" />
+    <TypeScriptCompile Include="src\interfaces\IHomePageEntity.tsx" />
     <TypeScriptCompile Include="src\interfaces\IInputProps.tsx" />
     <TypeScriptCompile Include="src\interfaces\IKeyValue.tsx" />
+    <TypeScriptCompile Include="src\interfaces\ILoginEntity.tsx" />
+    <TypeScriptCompile Include="src\interfaces\ILoginForm.tsx" />
     <TypeScriptCompile Include="src\interfaces\index.tsx" />
+    <TypeScriptCompile Include="src\interfaces\IRegisterEntity.tsx" />
+    <TypeScriptCompile Include="src\interfaces\IRegisterForm.tsx" />
     <TypeScriptCompile Include="src\router.tsx" />
   </ItemGroup>
   <ItemGroup>
